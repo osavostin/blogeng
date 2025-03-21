@@ -55,7 +55,7 @@ education:
   - area: Прикладная математика и информатика
     institution: Российский университет дружбы народов
     date_start: 2024-09-01
-    date_end: -
+    date_end: 2028-07-30
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:

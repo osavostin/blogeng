@@ -94,17 +94,23 @@ skills:
   - name: Technical Skills
     items:
       - name: Python
-        description: ''
+        description: 'Владею языком программирования уже несколько лет.'
         percent: 80
         icon: code-bracket
-      - name: Data Science
-        description: ''
+      - name: Blender
+        description: 'Способен создавать качественные 3D-модели'
         percent: 100
         icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
+
+  - name: Experience
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Freelance
+        description: 'Работал фрилансом, на заказы писал программы.'
+        percent: 100
+        icon: cat
+  
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -129,6 +135,10 @@ languages:
     percent: 75
   - name: Portuguese
     percent: 25
+
+accomplishments:
+  - name: ScienceCode
+    description: 'Создал программу которую использует данная кампания'
 
 # Awards.
 #   Add/remove as many awards below as you like.

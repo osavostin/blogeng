@@ -111,22 +111,12 @@ skills:
         percent: 100
         icon: cat
   
-  - name: Hobbies
+  - accomplishments:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+      - name: ScienceCode
+        description: 'Создал программу которую использует данная компания'
 
 languages:
   - name: English
@@ -136,9 +126,6 @@ languages:
   - name: Portuguese
     percent: 25
 
-accomplishments:
-  - name: ScienceCode
-    description: 'Создал программу которую использует данная кампания'
 
 # Awards.
 #   Add/remove as many awards below as you like.

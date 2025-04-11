@@ -111,7 +111,7 @@ skills:
         percent: 100
         icon: cat
   
-  - accomplishments:
+  - name: Accomplishments
     color: '#eeac02'
     color_border: '#f0bf23'
     items:

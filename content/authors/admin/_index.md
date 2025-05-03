@@ -33,18 +33,18 @@ profiles:
   - icon: at-symbol
     url: 'mailto:your-email@example.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+  - icon: academicons/elibrary
+    url: https://www.elibrary.ru/project_user_tools.asp
   - icon: brands/github
     url: https://github.com/osavostin
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
+  - icon: academicons/elsevier
+    url: https://www.elsevier.com
   - icon: academicons/google-scholar
     url: https://scholar.google.com/
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0009-0000-5739-486
+  - icon: academicons/arxiv
+    url: https://arxiv.org/user/
 
 interests:
   - Математические науки

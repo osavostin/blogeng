@@ -131,6 +131,8 @@ data.head()
 {{</* icon name="python" */>}} Python
 ```
 
+<iframe width="720" height="405" src="https://rutube.ru/play/embed/67a8cf12634681a23c2cd72e7ed91f73" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
 renders as
 
 {{< icon name="python" >}} Python

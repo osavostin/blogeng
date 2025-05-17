@@ -37,6 +37,8 @@ Teach your course by sharing videos with your students. Choose from one of the f
 
 **Video file**
 
+<iframe width="560" height="315" src="(https://rutube.ru/video/67a8cf12634681a23c2cd72e7ed91f73/)" frameborder="0" allow="accelerometer; picture-in-picture" allowfullscreen></iframe>
+
 Videos may be added to a page by either placing them in your `assets/media/` media library or in your [page's folder](https://gohugo.io/content-management/page-bundles/), and then embedding them with the _video_ shortcode:
 
     {{</* video src="my_video.mp4" controls="yes" */>}}

@@ -6,8 +6,8 @@ title: osavostin
 name_pronunciation: Savostin Oleg
 
 # Full name (for SEO)
-first_name: Олег
-last_name: Савостин
+first_name: Oleg
+last_name: Savostin
 
 # Status emoji
 status:
@@ -47,13 +47,13 @@ profiles:
     url: https://arxiv.org/user/
 
 interests:
-  - Математические науки
-  - 3D-Моделирование
-  - Языки программирования
+  - Mathematics science
+  - 3D-Modelling
+  - Programming languages
 
 education:
-  - area: Прикладная математика и информатика
-    institution: Российский университет дружбы народов
+  - area: Applied Mathematics and Informatics
+    institution: Russian university of friednship of nations
     date_start: 2024-09-01
     date_end: 2028-07-30
     summary: |
@@ -94,11 +94,11 @@ skills:
   - name: Technical Skills
     items:
       - name: Python
-        description: 'Владею языком программирования уже несколько лет.'
+        description: 'Possess the knowledge of programming language for 3 years'
         percent: 80
         icon: code-bracket
       - name: Blender
-        description: 'Способен создавать качественные 3D-модели'
+        description: 'Can created 3D models'
         percent: 100
         icon: chart-bar
 
@@ -107,7 +107,7 @@ skills:
     color_border: '#f0bf23'
     items:
       - name: Freelance
-        description: 'Работал фрилансом, на заказы писал программы.'
+        description: 'Worked in freelance, wrote codes.'
         percent: 100
         icon: cat
   
@@ -116,8 +116,7 @@ skills:
     color_border: '#f0bf23'
     items:
       - name: ScienceCode
-        description: 'Создал программу которую использует данная компания'
-
+        description: 'Wrote a code, used by the company'
 languages:
   - name: English
     percent: 100
@@ -161,4 +160,4 @@ awards:
 
 ## About Me
 
-Савостин Олег является студентом первого курса РУДН на направлении "Математика и механика". Проявляет интерес к компьютерным наукам и математическим задачам. В процессе получения первого высшего образования.
+Oleg Savostin is a first-year student at RUDN University, majoring in "Mathematics and Mechanics." He shows an interest in computer science and mathematical problems. He is in the process of obtaining his first higher education degree.

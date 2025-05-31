@@ -1,6 +1,6 @@
 ---
-title: Язык разметки Markdown
-summary: Небольшой гайд на этот распространенный язык разметки
+title: Markdown
+summary: A small guide
 date: 2025-04-11
 authors:
   - admin
@@ -10,145 +10,142 @@ tags:
 image:
 ---
 
-# Вступление
+Introduction
 
-GitHub — это широко используемая платформа для контроля версий и совместной разработки, но она также является отличной платформой для документирования, написания и форматирования контента с помощью Markdown. Независимо от того, пишете ли вы файлы README, документацию для своих проектов или вносите вклад в вики-страницу, понимание того, как форматировать текст на GitHub, повысит читабельность и профессионализм вашей работы.
+GitHub is a widely used platform for version control and collaborative development, but it’s also an excellent platform for documenting, writing, and formatting content using Markdown. Whether you're writing README files, project documentation, or contributing to a wiki page, understanding how to format text on GitHub will improve the readability and professionalism of your work.
 
-В этой статье вы узнаете, как писать и форматировать на GitHub с помощью Markdown, а также получите несколько полезных советов и инструментов для улучшения ваших текстов.
+In this article, you'll learn how to write and format on GitHub using Markdown, along with some useful tips and tools to enhance your writing.
 
-# Про сам Markdown
+About Markdown
 
-Что такое Markdown?
-Markdown — это простой язык разметки, который позволяет форматировать текст простым и удобным для чтения способом. Он широко используется на GitHub для написания файлов README, проблем, запросов на вытягивание описаний и многого другого. Синтаксис Markdown интуитивно понятен и удобен для чтения даже в необработанном виде, что делает его идеальным для совместной работы над текстами и документацией.
+What is Markdown?Markdown is a lightweight markup language that allows you to format text in a simple and readable way. It is widely used on GitHub for writing README files, issues, pull request descriptions, and more. Markdown syntax is intuitive and readable even in raw form, making it ideal for collaborative writing and documentation.
 
-Файлы Markdown обычно используют расширение файла .md.
+Markdown files usually use the .md file extension.
 
-# Базовое форматирование в Markdown
+Basic Markdown Formatting
 
-Вот несколько распространённых методов форматирования Markdown, которые вы можете использовать в своих репозиториях GitHub:
+Here are some common Markdown formatting methods you can use in your GitHub repositories:
 
-Заголовки
-Заголовки создаются с помощью символа #, за которым следует пробел. Количество символов # обозначает уровень заголовка (от h1 до h6).
+HeadingsHeadings are created using the # symbol followed by a space. The number of # symbols indicates the heading level (from h1 to h6).
 
--# Heading 1
--## Heading 2
--### Heading 3
-Выходной сигнал:
+# Heading 1
 
-git1
-Заголовки
-Акцент
-Вы можете выделить текст курсивом или жирным шрифтом, используя * или _ для курсива и ** или __ для выделения жирным шрифтом.
+## Heading 2
 
-*italic* or _italic_
-**bold** or __bold__
-Выходной сигнал:
+### Heading 3
 
-git2
-Акцент
-Списки
-В Markdown вы можете легко создавать упорядоченные и неупорядоченные списки:
+EmphasisYou can italicize or bold text using * or _ for italics, and ** or __ for bold.
 
-Неупорядоченный список: используйте *, - или +.
-Упорядоченный список: используйте числа, за которыми следует точка.
-* Item 1
-- Item 2
-+ Item 3
+italic or italic
 
-1. First item
-2. Second item
-Выходной сигнал:
+bold or bold
 
-git3
-Списки
-Ссылки и изображения
-Чтобы вставить ссылку, используйте следующий синтаксис:
+ListsIn Markdown, you can easily create ordered and unordered lists:
 
+Unordered list: use *, -, or +
 
-Чтобы вставить изображение, используйте тот же синтаксис, но добавьте восклицательный знак (!):
+Ordered list: use numbers followed by a period
 
+Example:
 
-## Подсветка кода и синтаксиса
-Markdown на GitHub поддерживает встроенный код и блоки кода. Подсветка синтаксиса доступна для большинства языков программирования.
+Item 1
 
-Встроенный код: Используйте обратные метки для форматирования встроенного кода.
+Item 2
 
-Here is some `inline code`.
-Блок кода: Для блока кода используйте тройные обратные кавычки (```) с указанием языка.
+Item 3
+
+First item
+
+Second item
+
+Links and ImagesTo insert a link, use the following syntax:
+
+[Link text](URL)
+
+To insert an image, use the same syntax with an exclamation mark (!) at the beginning:
+
+![Alt text](ImageURL)
+
+Code and Syntax Highlighting
+
+GitHub Markdown supports inline code and code blocks. Syntax highlighting is available for most programming languages.
+
+Inline code: Use backticks to format inline code.Example: inline code
+
+Code blocks: Use triple backticks (```) and specify the language.
+
+Example:
 
 ```javascript
-const hello = 'Hello, world!'
-console.log(hello);
-Выходной сигнал
-
 const hello = 'Hello, world!';
 console.log(hello);
 ```
 
-Такое форматирование помогает сделать ваш код читаемым и понятным, особенно при совместной работе с другими людьми.
+This formatting helps make your code readable and understandable, especially when collaborating with others.
 
-Кавычки блоков и Горизонтальные линии
-Вы можете создавать блок-цитаты с помощью символа >. Блок-цитаты полезны для цитирования текста или выделения важных разделов.
+Blockquotes and Horizontal Lines
 
-> This is a blockquote.
-Выходной сигнал:
+Blockquotes: Use > to create blockquotes. Useful for quoting text or highlighting sections.
 
-git4
-Цитаты из блоков
-Чтобы создать горизонтальные линии, можно использовать три или более дефисов (---), звёздочек (***) или подчёркиваний (___).
+Example:
+
+This is a blockquote.
+
+Horizontal lines: Use three or more hyphens (---), asterisks (***), or underscores (___).
+
+Example:
 
 ---
-Таблицы
-Таблицы в Markdown легко создавать. Используйте вертикальные линии (|) для разделения столбцов и дефисы (-) для определения заголовков.
+
+TablesCreating tables in Markdown is easy. Use vertical bars (|) to separate columns and hyphens (-) to define headers.
+
+Example:
 
 | Header 1 | Header 2 |
 | -------- | -------- |
 | Cell 1   | Cell 2   |
 | Cell 3   | Cell 4   |
-Выходной сигнал:
 
-git5
-Таблицы
-Таблицы полезны для представления данных в организованном виде, особенно для документации.
+Tables are useful for organizing data clearly, especially in documentation.
 
-Списки задач
-Списки задач позволяют создавать контрольные списки в задачах, запросах на вытягивание и комментариях.
+Task ListsTask lists let you create checklists in issues, pull requests, and comments.
 
-- [x] Task 1
-- [ ] Task 2
-Выходной сигнал:
+Example:
 
-git6
-## Списки задач
-Списки задач идеально подходят для отслеживания прогресса в решении проблем или задач в проекте.
 
-Уценка со вкусом GitHub (GFM)
-GitHub Flavored Markdown расширяет стандартный синтаксис Markdown, добавляя поддержку дополнительных параметров форматирования, в том числе:
 
-Списки задач (как показано выше)
-Упоминания: Вы можете отметить коллег, используя @ и указав их имя пользователя (например, @octocat).
-Зачеркивание: Используйте ~~ для зачеркивания текста.
-~~This is strikethrough text.~~
-Выходной сигнал:
+Task Lists
 
-git7
-зачеркнутый текст
-## Работа с файлами README
-Файлы README — один из важнейших аспектов репозитория GitHub. Они дают общее представление о проекте и обычно содержат инструкции по установке, примеры использования и контактные данные.
+Task lists are perfect for tracking progress on issues or project tasks.
 
-Вот простой пример файла README:
+GitHub Flavored Markdown (GFM)GitHub Flavored Markdown extends the standard Markdown syntax with additional formatting options, including:
 
-git8
-## Файл Readme
-Написание вики-страниц
-Вики-страницы GitHub используют тот же синтаксис Markdown и идеально подходят для организации документации по крупным проектам. Каждая страница вики-страницы может быть посвящена отдельной теме, и вы можете связывать страницы между собой для создания подробной документации.
+Task lists (as shown above)
 
-# Заключение
-Написание и форматирование на GitHub с помощью Markdown — это простой, но эффективный способ создавать понятную и профессиональную документацию для ваших проектов. Независимо от того, пишете ли вы README, проблемы или страницы документации, понимание основ Markdown поможет вам эффективно общаться.
+Mentions: You can tag collaborators using @ followed by their username (e.g., @octocat)
 
-Используя инструменты и советы, приведенные в этом руководстве, вы можете:
+Strikethrough: Use ~~ to strike through text.Example:This is strikethrough text.
 
-Создавайте хорошо структурированную документацию.
-Улучшайте совместную работу за счет устранения проблем и запросов на извлечение.
-Поддерживайте безупречное и профессиональное присутствие проекта на GitHub.
-Умение работать с Markdown на GitHub необходимо любому разработчику, который хочет вносить свой вклад в проекты с открытым исходным кодом или поддерживать их.
+Working with README Files
+
+README files are one of the most important aspects of a GitHub repository. They provide an overview of the project and typically include installation instructions, usage examples, and contact information.
+
+Here’s a simple example of a README file.
+
+Writing Wiki Pages
+
+GitHub wikis use the same Markdown syntax and are ideal for organizing documentation for large projects. Each wiki page can focus on a specific topic, and you can link pages together to create detailed documentation.
+
+Conclusion
+
+Writing and formatting on GitHub using Markdown is a simple yet powerful way to create clear and professional documentation for your projects. Whether you're writing a README, an issue, or documentation pages, understanding Markdown basics helps you communicate effectively.
+
+By using the tools and tips in this guide, you can:
+
+Create well-structured documentation
+
+Improve collaboration by clarifying issues and pull requests
+
+Maintain a clean and professional presence for your project on GitHub
+
+Being proficient with Markdown on GitHub is essential for any developer who wants to contribute to or maintain open-source projects.

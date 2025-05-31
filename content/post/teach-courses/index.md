@@ -1,5 +1,5 @@
 ---
-title: 👩🏼‍🏫 Прохождение внешнего курса
+title: 👩🏼‍🏫 Completion of external course
 summary: Embed videos, code.
 date: 2025-05-17
 authors:
@@ -10,18 +10,14 @@ image:
   caption: 'Embed rich media such as videos and LaTeX math'
 ---
 
-## 1. Введение
+1. Introduction
+First, I began studying the first part of the course program, which is called “Introduction.” At this stage, I focused on learning the basic functionality of the operating system and started getting familiar with its interface, working with archives, and using the terminal. As a result of this phase, I acquired several useful skills that significantly eased my work. I learned how to run executable files, download files from the internet on the Linux platform, and search for specific words in text files. These skills proved extremely useful and helped me better understand why most programmers prefer Linux over Windows.
 
-Сперва я приступил к изучению первой части программы курса, которая называется «Введение». На данном этапе я сосредоточился на освоении базового функционала операционной системы и начал знакомиться с ее интерфейсом, работой с архивами и терминалом. В результате этого этапа мне удалось освоить несколько полезных навыков, которые значительно облегчили мою работу. Я научился запускать исполняемые файлы, скачивать файлы из интернета на платформе Linux, а также осуществлять поиск определенных слов в текстовых файлах. Эти навыки оказались крайне полезными и позволили мне лучше понять, почему большинство программистов отдают предпочтение Linux вместо Windows.
+2. Working on the Server
+Now I’m moving on to the second stage, which is more challenging than the first. In this part of the course, I learned how to work on a server. I learned how to exchange files, run specific files, and manage running programs. Additionally, I mastered the use of the terminal multiplexer tmux, which greatly simplifies multitasking and session management in the terminal.
 
-## 2. Работа на сервере
-
-Теперь я перехожу ко второму этапу, который является более сложным по сравнению с первым. На этом этапе курса я освоил работу на сервере. Я научился выполнять обмен файлами, запускать определенные файлы и контролировать запущенные программы. Кроме того, я освоил использование менеджера терминалов tmux, который значительно упрощает многозадачность и управление сессиями в терминале.
-
-## 3. Продвинутые темы
-
-Финальный этап курса, посвященный продвинутым темам, оказался самым трудным для освоения, но именно он помогает новому пользователю уверенно работать с операционной системой Linux. На этом этапе мне пришлось решать задачи, которые включали не только теоретические вопросы по определениям, но и практическую работу со встроенным терминалом. Я научился писать различные скрипты на bash, которые выполняли определенные действия. В ходе обучения я изучил конструкции ветвления и циклы, что позволило мне создавать более сложные и функциональные скрипты. Также я освоил построение графиков с помощью gnuplot. Этот этап курса оказался самым полезным и интересным по своему содержанию и значительно углубил мои знания о скриптах и их применении.
-
+3. Advanced Topics
+The final stage of the course, dedicated to advanced topics, turned out to be the most difficult to master, but it is precisely this stage that helps a new user work confidently with the Linux operating system. At this stage, I had to solve tasks that included not only theoretical questions about definitions but also practical work using the built-in terminal. I learned how to write various bash scripts that perform specific actions. During my training, I studied conditional statements and loops, which enabled me to create more complex and functional scripts. I also learned how to build graphs using gnuplot. This stage of the course was the most useful and interesting in terms of content, and it significantly deepened my understanding of scripts and their applications.
 ## Видео выполнения курса:
 
 <iframe width="720" height="405" src="https://rutube.ru/play/embed/67a8cf12634681a23c2cd72e7ed91f73" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>

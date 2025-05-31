@@ -1,5 +1,5 @@
 ---
-title: 📈 Языки научного программирования
+title: 📈 Scientific programming languages
 summary: Use popular tools such as Plotly, Mermaid, and data frames.
 date: 2025-05-17
 authors:
@@ -12,52 +12,94 @@ image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
-Формализованный язык, предназначенный для описания программ и алгоритмов решения задач на ЭВМ. Языки программирования являются искусственными. В них синтаксис и семантика строго определены. Поэтому они не допускают свободного толкования выражения, что характерно для естественного языка. Языки программирования разделяются на две основные категории языки высокого уровня и языки низкого уровня :
+A formalized language designed for describing programs and algorithms for solving problems on a computer (EDP system). Programming languages are artificial languages. Their syntax and semantics are strictly defined, and therefore, they do not allow for the free interpretation of expressions, which is typical of natural languages. Programming languages are divided into two main categories: high-level languages and low-level languages:
 
-Язык высокого уровня [high-level language] - Язык программирования, средства которого обеспечивают описание задачи в наглядном, легко воспринимаемом виде, удобном для программиста. Он не зависит от внутренних машинных кодов ЭВМ любого типа, поэтому программы, написанные на языках высокого уровня, требуют перевода в машинные коды программами транслятора либо интерпретатора. К языкам высокого уровня относят Фортран , ПЛ/1 , Бейсик , Паскаль , Си , Ада и др.
-Язык низкого уровня , [low-level language ] - Язык программирования, предназначенный для определенного типа ЭВМ и отражающий его внутренний машинный код (см. ниже также “машинный язык “, “ машинно-ориентированный язык “ и “ язык ассемблера “).
-Различают также следующие виды языков программирования:
+High-Level Language
+A programming language whose tools provide a visual, easily understandable description of a task, convenient for the programmer. It is not dependent on the internal machine codes of any specific computer; therefore, programs written in high-level languages require translation into machine code via compilers or interpreters. Examples include Fortran, PL/I, BASIC, Pascal, C, Ada, etc.
 
-Алгоритмический язык [algorithmic language ] - Совокупность символов, соглашений и правил, используемых для однозначного описания алгоритмов и обычно являющаяся часть языка программирования ;
-Неалгоритмический язык [nonalgorithmic language] - Язык программирования, тексты которого не содержат указаний на порядок выполнения операций и служат лишь исходным материалом для синтеза алгоритма решения задачи;
-Формальный язык [formal language] –
-Язык программирования, построенный по правилам некоторого логического исчисления или формальной грамматики [formal grammar ], представляющей собой систему правил построения в заданном алфавите конечных знаковых последовательностей, множество которых образует формальный язык;
-См. “алгоритмический язык “;
-Исходный язык [source language] - Язык программирования, на котором написана программа, в отличие от машинного языка, на котором программы выполняются компьютером. Исходные языки классифицируются на языки высокого уровня и языки низкого уровня .
-Машинный ( абсолютный ) язык , язык ЭВМ [computer (machine) language] - Язык программирования, предназначенный для представления программ в форме, обеспечивающей возможность их выполнения техническими средствами;
-Машинозависимый ( машинно-ориентированный ) язык , машинозависимый язык программирования [computer-sensitive (computer-oriented) language] - Язык программирования, учитывающий структуру и характеристики ЭВМ определенного типа или конкретной ЭВМ;
-Машиннонезависимый язык [machine-independent language] - Язык программирования, структура и средства которого не связаны ни с какой конкретной ЭВМ и позволяют выполнять составленные на нем программы на любой ЭВМ, снабженной трансляторами (см. ниже) с этого языка;
-Символический язык , язык символического кодирования [symbolic language] - Язык программирования, ориентированный на конкретные ЭВМ и основанный на кодировании машинных операций при помощи определенного набора символов;
-Гибридный ( комбинированный ) язык [hibrid language] - Язык программирования, использующий также средства другого языка;
-Графический язык [graphic language ] - Язык, предназначенный для написания программ машинной графики и пользования ими.
-Базовый язык [base language] –
-Машинный язык , общий для семейства ЭВМ;
-Язык программирования в СУБД с автономным языком .
-Общий язык [common language] - Машинный язык, общий для группы ЭВМ и используемых ими внешних устройств;
-Эталонный язык [reference language ] - Язык, являющийся основой для всех его конкретных версий, являющихся вариантами адаптации эталонного языка к определенным условиям применения и назначения;
-Язык ассемблера , ассемблер [assembler language ] - Универсальный язык программирования , относящийся к категории языков низкого уровня, структура которого определяется форматами команд, данными машинного языка и архитектурой ЭВМ. Используется программистами в тех случаях, когда невозможно применение языка высокого уровня или требуются эффективные программы в машинных кодах.
-Декларативный ( непроцедурный ) язык [declararative (nonprocedural) language] - Язык программирования, который позволяет задавать связи и отношения между объектами и величинами, но не определяет последовательность выполнения действий (например, языки Пролог , QBE);
-Императивный ( процедурный ) язык [imperative language] - Язык программирования, который позволяет в явной форме (при помощи задания выполняемых операторов) определять действия и порядок (последовательность) их выполнения;
-Язык функционального программирования , функциональный язык [functional language] - Декларативный язык программирования, основанный на понятии функций, которые задают зависимость, но не определяют порядок вычислений.
-Специализированный язык [special language] - Язык программирования, ориентированный на решение определенного круга задач;
-Язык описания страниц [PDL - Page Description Language] - Специализированный язык, предназначенный для печатающих устройств. Предусматривает возможность использования изображений в формате, независимом от параметров устройства отображения. Наиболее известным языком такого типа является PostScript.
-Автономный язык [freestanding language] - Специализированный язык высокого уровня, в замкнутых СУБД (“ СУБД с автономным языком “);
-Язык конструирования интерактивных технологий - В СУБД - язык, предназначенный для описания технологических процессов обработки данных с учетом разделения характера операций по их типам, а также обеспечения диалога с администратором системы;
-Язык манипулирования данными , ЯМД [DML - Data Manipulation Language] - В СУБД - язык, предназначенный для обращения к базе данных и выполнения поиска, чтения и модификации ее записей;
-Язык обработки списков [list language] - Специализированный язык, предназначенный для описания процессов обработки данных, представленных в виде списков объектов ;
-Язык описания данных [DDL - Data Description Language ] - Язык, предназначенный для описания “концептуальной схемы” базы данных ;
-Язык описания хранения данных [DSDL - Data Storage Description Language ] - Язык, предназначенный для описания физической структуры ( схемы ) базы данных ;
-Язык описания страниц [page description language] Система для кодировки документов, которая позволяет точно описать ее внешний вид после подготовки к выводу на печать или на дисплей. Примером использования такого языка служит PDF (Portable Document Format), разработанный Adobe для хранения и представления изображений страниц.
-Язык представления знаний [KRL - Knowledge Representation Language] - Декларативный или декларативно-процедурный язык, предназначенный для представления знаний в памяти ЭВМ (например, языки Лисп и Пролог );
-Язык публикаций [publication language ] - Язык, используемый для публикации алгоритмов и программ;
-Язык спецификаций [specification language] - Декларативный язык для задания спецификаций программ ;
-Проблемно-ориентированный язык [problem-oriented language] - Язык программирования, предназначенный для решения определенного класса задач (проблем);
-Процедурный ( процедурно-ориентированный ) язык [procedure-orinted language] - Проблемно-ориентированный язык, который облегчает выражение процедуры, как точного алгоритма;
-Язык реального времени [real-time language] - Язык, используемый для программирования задач, в которых критическим является время реакции ЭВМ на сигналы, требующие от нее немедленных действий (например, язык Ада );
-Язык управления пакетом [batch control language ] - Набор команд , директив , квалификаторов и правил их использования для управления пакетной обработкой данных;
-Язык управления заданиями [job-control language ] - Язык, на котором записывается последовательность команд, управляющих выполнением задания. В отличие от обычных языков программирования, в которых объектами описания являются элементы, связанные с решением отдельной задачи, в языках управления заданиями преобразуемыми объектами являются целые программы и выходные потоки данных, обработанных этими программами.
-Общесетевой командный язык [CNCL - Common Network - Command language ] - Стандартный в рамках вычислительной сети язык диалогового (интерактивного) поиска данных, предназначенный для унификации работы пользователей с неоднородными базами данных, управляемых различными СУБД ;
-Системный язык [system language ] - Язык общения оператора ЭВМ с вычислительной системой, представляющий собой совокупность команд оператора и сообщений системы;
-Язык общего назначения , универсальный язык [universal programming language] - Язык программирования, ориентированный на решение задач практически из любой области и объединяющий на единой методической основе наиболее существенные свойства и средства современных машино- и проблемноориентированных языков программирования (например, язык ассемблера , ПЛ/1 и др.);
-Язык ориентированный на пользователя [user-oriented language ] - Слабоформализованный язык программирования, близкий к естественному языку ;
-Язык меню [menu language ] - Язык диалога пользователя с системой, основанный на использовании меню .
+Low-Level Language
+A programming language intended for a specific type of computer, reflecting its internal machine code (see also: machine language, machine-oriented language, assembly language).
+
+Other Types of Programming Languages:
+Algorithmic Language – A set of symbols, conventions, and rules used for unambiguous description of algorithms; typically part of a programming language.
+
+Nonalgorithmic Language – A programming language whose texts do not specify the order of operations and serve only as a source for synthesizing an algorithm to solve the task.
+
+Formal Language – A programming language constructed according to the rules of a logical calculus or a formal grammar, representing a system of rules for generating valid symbol sequences over a given alphabet.
+(See also: Algorithmic Language)
+
+Source Language – The programming language in which a program is written, as opposed to the machine language in which it is executed. These can be high-level or low-level.
+
+Machine (Absolute) Language / Computer Language – A programming language designed for representing programs in a form executable by technical means (hardware).
+
+Computer-Sensitive (Machine-Oriented) Language – A language that accounts for the structure and features of a particular type of computer.
+
+Machine-Independent Language – A programming language whose structure and features are not tied to any specific computer and can be used on any machine equipped with a translator for that language.
+
+Symbolic Language / Symbolic Coding Language – A language oriented towards specific machines, using a predefined set of symbols to encode machine operations.
+
+Hybrid (Combined) Language – A programming language that also incorporates tools from another language.
+
+Graphic Language – A language intended for writing and using graphics programs.
+
+Base Language –
+
+A machine language common to a family of computers.
+
+A programming language used in a DBMS with a built-in language.
+
+Common Language – A machine language shared by a group of computers and their external devices.
+
+Reference Language – The foundational version of a language used as the basis for specific adaptations depending on usage conditions and objectives.
+
+Assembler Language / Assembler – A universal low-level programming language whose structure is defined by the format of machine commands and computer architecture. Used when high-level languages are inadequate or when highly efficient machine code is needed.
+
+Declarative (Nonprocedural) Language – A language that specifies relationships between objects and values without defining the sequence of actions (e.g., Prolog, QBE).
+
+Imperative (Procedural) Language – A language that explicitly defines operations and the sequence in which they should be executed.
+
+Functional Programming Language – A declarative language based on the concept of functions, which define dependencies without specifying execution order.
+
+Special-Purpose Language – A programming language designed for solving a specific set of problems.
+
+Page Description Language (PDL) – A specialized language for output devices like printers, allowing the use of images in a format independent of display hardware. A notable example is PostScript.
+
+Freestanding Language – A high-level specialized language used in closed DBMSs (DBMSs with built-in languages).
+
+Interactive Technology Design Language – In DBMS, a language for describing technological processes of data handling, including dialog functions with system administrators.
+
+Data Manipulation Language (DML) – In DBMS, a language used to access the database for searching, reading, and modifying records.
+
+List Processing Language – A specialized language used for handling data organized as object lists.
+
+Data Description Language (DDL) – A language for describing the conceptual schema of a database.
+
+Data Storage Description Language (DSDL) – A language used to describe the physical schema of a database.
+
+Page Description Language – A system for encoding documents, enabling accurate representation of a document’s appearance after output to print or screen. PDF (Portable Document Format) by Adobe is an example.
+
+Knowledge Representation Language (KRL) – A declarative or hybrid language used to represent knowledge in computer memory (e.g., LISP, Prolog).
+
+Publication Language – A language used for publishing algorithms and programs.
+
+Specification Language – A declarative language for specifying software requirements or behavior.
+
+Problem-Oriented Language – A language designed to solve a specific class of problems.
+
+Procedural (Procedure-Oriented) Language – A problem-oriented language that simplifies expressing a procedure as an exact algorithm.
+
+Real-Time Language – A language used to program tasks where computer response time is critical (e.g., Ada).
+
+Batch Control Language – A set of commands, directives, and qualifiers used to manage batch processing of data.
+
+Job-Control Language – A language for writing sequences of commands that manage the execution of jobs. Unlike traditional programming languages that describe individual tasks, job-control languages operate on entire programs and their output data flows.
+
+Common Network Command Language (CNCL) – A standardized language in computer networks for dialog-based data searches, aimed at unifying user interaction with diverse DBMSs.
+
+System Language – A language for communication between a computer operator and the system, consisting of operator commands and system messages.
+
+Universal Programming Language – A general-purpose language for solving problems across various domains, combining key features of machine- and problem-oriented languages (e.g., Assembler, PL/I).
+
+User-Oriented Language – A loosely formalized language similar to natural language.
+
+Menu Language – A user-system dialog language based on menu navigation.
